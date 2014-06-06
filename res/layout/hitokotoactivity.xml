@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="302dp"
+        android:columnCount="1" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="226dp"
+            android:layout_height="326dp"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_row="0"
+            android:src="@drawable/ima" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.59"
+        android:text="TextView" />
+
+    <activity android:label="@string/app_name" android:name="jp.ac.st.originalaso_2014_002.HitokotoActivity">
+    	<action android:name="android.intent.action.MAIN"></action>
+    	<category android:name="android.intent.category.LAUNCHER"></category></activity></LinearLayout>
