@@ -30,7 +30,7 @@
         android:textSize="20sp" />
 
     <EditText
-        android:id="@+id/editText1"
+        android:id="@+id/editMsg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/textView2"
@@ -46,8 +46,8 @@
         android:id="@+id/btnment"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/editText1"
-        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/editMsg"
+        android:layout_below="@+id/editMsg"
         android:layout_marginTop="32dp"
         android:text="メンテ" />
 
@@ -55,12 +55,12 @@
         android:id="@+id/btntou"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_above="@+id/button3"
+        android:layout_above="@+id/btnch"
         android:layout_alignRight="@+id/textView1"
         android:text="登録" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/btnch"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignLeft="@+id/textView1"
@@ -69,8 +69,5 @@
         android:layout_marginTop="40dp"
         android:text="一言チェック" />
 
-	<activity android:label="@string/app_name" android:name="jp.ac.st.originalaso_2014_002.MainActivity">
-    	<action android:name="android.intent.action.MAIN"></action>
-    	<category android:name="android.intent.category.LAUNCHER"></category></activity>
 
 </RelativeLayout>

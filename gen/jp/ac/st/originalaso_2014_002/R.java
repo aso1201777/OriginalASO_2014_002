@@ -26,20 +26,22 @@ public final class R {
         public static final int imagel=0x7f020002;
     }
     public static final class id {
-        public static final int action_settings=0x7f080008;
+        public static final int action_settings=0x7f080009;
+        public static final int btnch=0x7f080005;
         public static final int btnment=0x7f080003;
         public static final int btntou=0x7f080004;
-        public static final int button3=0x7f080005;
-        public static final int editText1=0x7f080002;
+        public static final int editMsg=0x7f080002;
         public static final int imageView1=0x7f080006;
-        public static final int listView1=0x7f080007;
+        public static final int listView1=0x7f080008;
         public static final int textView1=0x7f080000;
         public static final int textView2=0x7f080001;
+        public static final int txvHITOKOTO=0x7f080007;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
         public static final int hitokotoactivity=0x7f030001;
         public static final int maintenanceactivity=0x7f030002;
+        public static final int tourokuactivity=0x7f030003;
     }
     public static final class menu {
         public static final int main=0x7f070000;

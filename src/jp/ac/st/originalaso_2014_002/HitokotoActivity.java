@@ -1,7 +1,9 @@
 package jp.ac.st.originalaso_2014_002;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.widget.TextView;
 
 public class HitokotoActivity extends Activity {
 
@@ -11,4 +13,18 @@ public class HitokotoActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.hitokotoactivity);
 	}
+
+	@Override
+	protected void onResume() {
+		// TODO 自動生成されたメソッド・スタブ
+		super.onResume();
+		
+		Intent intent = this.getIntent();
+		String strHitokoto = intent.getStringExtra("hitokoto");
+		
+		TextView txvHITOKOTO = (TextView)findViewById(R.id.txvHITOKOTO);
+		txvHITOKOTO.setText(strHitokoto);
+	}
+	
+	
 }
