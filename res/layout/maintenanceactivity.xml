@@ -11,19 +11,19 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/listView1"
+        android:id="@+id/lsthitokoto"
         android:layout_width="match_parent"
         android:layout_height="321dp" >
     </ListView>
 
     <Button
-        android:id="@+id/btnment"
+        android:id="@+id/btnDELETE"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button" />
 
     <Button
-        android:id="@+id/btntou"
+        android:id="@+id/btnback"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Button" />
