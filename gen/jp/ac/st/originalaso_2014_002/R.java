@@ -27,8 +27,8 @@ public final class R {
     }
     public static final class id {
         public static final int action_settings=0x7f08000b;
-        public static final int btnDELETE=0x7f080009;
-        public static final int btnback=0x7f08000a;
+        public static final int btnDELETE=0x7f08000a;
+        public static final int btnback=0x7f080009;
         public static final int btnch=0x7f080005;
         public static final int btnment=0x7f080003;
         public static final int btntou=0x7f080004;
