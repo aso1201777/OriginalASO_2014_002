@@ -17,6 +17,7 @@ public class MySQLiteOpenHelper extends SQLiteOpenHelper {
 	@Override
 	public void onCreate(SQLiteDatabase db) {
 		// TODO 自動生成されたメソッド・スタブ
+		// fujimoto
 		db.execSQL("CREATE TABLE IF NOT EXISTS " + "Hitokoto (_id INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, phrase TEXT )");
 	}
 
